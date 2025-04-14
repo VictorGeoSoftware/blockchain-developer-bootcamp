@@ -1,15 +1,22 @@
-# Basic Sample Hardhat Project
+# My very first Blockchain project
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, a sample script that deploys that contract, and an example of a task implementation, which simply lists the available accounts.
+This project demonstrates a basic Blockchain implementation. It's mainly about showing up a web with several components for tracking all the generated Blockchain operations.
+The "backend" part of the project is based on Solidity and deployed on a local blockchain (Hardhat).
 
-Try running some of the following tasks:
+**Starting it up**
+If you don't have npx installed, do:
+1.- npm init -y
+2.- npm install --save-dev hardhat
 
-```shell
-npx hardhat accounts
-npx hardhat compile
-npx hardhat clean
-npx hardhat test
-npx hardhat node
-node scripts/sample-script.js
-npx hardhat help
-```
+When you have npx installed, in a terminal window, do:
+1.- npx hardhat node
+
+Open another tab
+
+2.- npx hardhat run —network localhost scripts/1_deploy.js
+
+3.- npx hardhat run —network localhost scripts/2_seed_exchange.js
+
+Open a new terminal
+
+4.- npx react-scripts start
