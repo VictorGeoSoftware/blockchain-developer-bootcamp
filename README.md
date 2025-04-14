@@ -8,15 +8,10 @@ If you don't have npx installed, do:
 - npm init -y
 - npm install --save-dev hardhat
 
-When you have npx installed, in a terminal window, do:
-1.- npx hardhat node
-
+With npx installed, in a terminal window, do:
+- npx hardhat node
 Open another tab
-
-2.- npx hardhat run —network localhost scripts/1_deploy.js
-
-3.- npx hardhat run —network localhost scripts/2_seed_exchange.js
-
+- npx hardhat run —network localhost scripts/1_deploy.js
+- npx hardhat run —network localhost scripts/2_seed_exchange.js
 Open a new terminal
-
-4.- npx react-scripts start
+- npx react-scripts start
