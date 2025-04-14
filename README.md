@@ -4,6 +4,7 @@ This project demonstrates a basic Blockchain implementation. It's mainly about s
 The "backend" part of the project is based on Solidity and deployed on a local blockchain (Hardhat).
 
 **Starting it up**
+
 If you don't have npx installed, do:
 - npm init -y
 - npm install --save-dev hardhat
