@@ -5,8 +5,8 @@ The "backend" part of the project is based on Solidity and deployed on a local b
 
 **Starting it up**
 If you don't have npx installed, do:
-1.- npm init -y
-2.- npm install --save-dev hardhat
+- npm init -y
+- npm install --save-dev hardhat
 
 When you have npx installed, in a terminal window, do:
 1.- npx hardhat node
