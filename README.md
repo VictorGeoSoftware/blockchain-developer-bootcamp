@@ -12,7 +12,7 @@ If you don't have npx installed, do:
 With npx installed, in a terminal window, do:
 - npx hardhat node
   - Open another tab
-- npx hardhat run —network localhost scripts/1_deploy.js
-- npx hardhat run —network localhost scripts/2_seed_exchange.js
+- npx hardhat run —network [localhost](http://localhost) scripts/1_deploy.js
+- npx hardhat run —network [localhost](http://localhost) scripts/2_seed_exchange.js
   - Open another tab
 - npx react-scripts start
