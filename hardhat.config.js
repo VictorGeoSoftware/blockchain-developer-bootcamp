@@ -25,12 +25,11 @@ module.exports = {
     localhost: {},
     sepolia: {
       url: `https://sepolia.infura.io/v3/${process.env.INFURA_API_KEY}`,
-      accounts: privateKeys.split(","),
-      chainId: 11155111,
-      timeout: 60000
+      accounts: privateKeys.split(",")
+    },
+    amoy: {
+      url: `https://polygon-amoy.g.alchemy.com/v2/${process.env.ALCHEMY_API_KEY}`,
+      accounts: privateKeys.split(",")
     }
-  },
-  mocha: {
-    timeout: 60000
   }
 };
